@@ -1,0 +1,872 @@
+@font-face {
+    font-family: 'LatoFont';
+    src: url(/community/resource/LatoFont), url(/resource/LatoFont);
+}
+@font-face {
+    font-family: 'GothamFont';
+    src: url(/community/resource/GothamFont), url(/resource/GothamFont);
+}
+.THIS .highcharts-credits {
+    display: none;
+}
+.THIS .Enterprise-Deployment-Report {
+    width: 65%;
+    flex-grow: 0;
+    text-shadow: 0 8px 10px rgba(0, 0, 0, 0.12), 0 16px 24px rgba(0, 0, 0, 0.1), 0 6px 30px rgba(0, 0, 0, 0.12);
+    font-family: 'LatoFont';
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    white-space: nowrap;
+}
+.THIS .ButtonsButton {
+    width: 210px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    border: solid 1px #7b3ff2;
+    background-color: #fff;
+    margin: auto;
+    float: right;
+}
+.THIS .Text-Copy-3 {
+    width: 112px;
+    height: 20px;
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #262626;
+}
+.THIS .Rectangle-5 {
+    border-radius: 8px !important;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 6px 10px 0 rgba(0, 0, 0, 0.08), 0 1px 18px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    display: block;
+    margin: 12px auto;
+    align-content: center;
+    width: 85% !important;
+    min-width: 1250px;
+}
+.THIS .tableHead {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'LatoFont';
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.5px;
+    color: #262626;
+}
+.THIS .tableData {
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: top;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    color: #757575;
+}
+.THIS .BorderRight {
+    border-right: solid 1px #f0f0f0;
+}
+.THIS .PRIORITY-TICKETS {
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #262626;
+}
+.THIS .Open-Tickets {
+    padding-left: 4.5%;
+    font-family: 'LatoFont';
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #0b0c1b;
+}
+.THIS .Ticket-Number {
+    width: 65%;
+    flex-grow: 0;
+    padding-left: 4.5%;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #757575;
+}
+.THIS .Priority {
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #757575;
+    padding-left: 10px;
+}
+.THIS .Rectangle-100 {
+    height: 40px;
+    flex-grow: 0;
+    padding: 6px 46px 6px 0px;
+    background-color: #f5f5f5;
+}
+.THIS .Rectangle-1 {
+    height: 2px;
+    align-self: stretch;
+    background-color: #e9e9e9;
+}
+.THIS .Rectangle-TR {
+    height: 32px;
+    flex-grow: 0;
+    padding: 6px 46px 6px 15px;
+    background-color: #fff;
+}
+.THIS .TicketNumberTD {
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #262626;
+}
+.THIS .TicketNumberTDSmall {
+    width: 65%;
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #262626;
+    padding-left: 10px;
+}
+.THIS .Severity {
+    width: 25%;
+    height: 20px;
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #262626;
+}
+.THIS tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.THIS .leftHalf {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #e9e9e9;
+    padding-right: 6px;
+}
+.THIS .PRODUCTS-SERVICES {
+    width: 303px;
+    height: 17px;
+    flex-grow: 0;
+    margin: 0 314px 16px 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #262626;
+}
+.THIS .Product-Name {
+    width: 49%;
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #757575;
+}
+.THIS .Start-Date {
+    width: 23%;
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #757575;
+    padding-left: 1%;
+}
+.THIS .End-Date {
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #757575;
+    padding-left: 1%;
+}
+.THIS .BackToTop {
+    height: 2vh;
+    flex-grow: 0;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.THIS .dataTableFixHeader {
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.THIS .smallTableDiv {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.THIS .smallTable {
+    width: 93%;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.THIS .SRRectangle-5 {
+    padding: 10px;
+    border-radius: 8px !important;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 6px 10px 0 rgba(0, 0, 0, 0.08), 0 1px 18px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    height: 330px;
+}
+.THIS .row {
+    display: flex;
+}
+.THIS .CenterDiv {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 85%;
+    min-width: 1250px;
+}
+.THIS .footerContainer {
+    width: 85%;
+    min-width: 1250px;
+    margin: auto;
+    display: flex;
+}
+
+/*css given to ids*/
+.THIS #backToTopBtn {
+    width: 50%;
+    margin-top: 12px;
+}
+.THIS #title {
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    top: -150px;
+    display: block;
+    min-width: 1025px;
+}
+.THIS #backgroundImage {
+    height: 350px;
+    width: 100%;
+    background-image: url('/resource/1643739338000/DeploymentReportBanner');
+    background-size: cover;
+    min-width: 1250px;
+}
+.THIS #sections {
+    position: relative;
+    top: -70px;
+    min-width: 1250px;
+}
+.THIS #prodServiceTable tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.THIS #footer {
+    width: 100%;
+    min-width: 1250px;
+    display: flex;
+    background-color: #7b3ff2;
+    border-radius: 3px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.THIS #firstSection {
+    position: relative;
+    padding: 10px;
+}
+.THIS .yAxisTitleDeploymentGraph {
+    width: 16px;
+    height: 89.6px;
+    flex-grow: 0;
+    margin: 0 26px 50.4px 0;
+    font-family: 'LatoFont';
+    font-size: 7px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.29;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #262626;
+}
+.THIS .EP-Deployment-9869 {
+    width: 331px;
+    height: 22px;
+    flex-grow: 0;
+    margin: 0 205px 4px 0;
+    font-family: 'LatoFont';
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #262626;
+}
+.THIS .chart-wrapper {
+    position: relative;
+    padding-bottom: 40%;
+    width: 45%;
+    float: left;
+}
+
+.THIS .chart-inner {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+.THIS ::-webkit-scrollbar {
+    width: 15px;
+    background-color: rgba(233, 233, 233, 0.43);
+    border-radius: 10px;
+}
+
+/* Track */
+.THIS ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(233, 233, 233, 0.43);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+.THIS ::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px #8c8c8c;
+    background-color: #8c8c8c;
+    margin: 24.5px 0 0 5px;
+    padding: 27px 6.9px 55.2px 1px;
+    width: 11.1px;
+}
+.THIS ::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url('/resource/1643739338000/ScrollDown');
+}
+
+.THIS ::-webkit-scrollbar-button:vertical:increment {
+    background-image: url('/resource/1643739338000/ScrollUp');
+}
+
+/* new development */
+.THIS .main-container {
+    margin: 0px 100px 40px 100px;
+    background: #ffffff;
+}
+.THIS .header-section {
+    padding: 0px 0px 40px 0px;
+    border-bottom: 1px solid #d1bcff !important;
+}
+
+.THIS .header {
+    color: #262626;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'LatoFont';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 0.6px;
+    margin-bottom: 6px;
+}
+.THIS .body-fonts {
+    color: #262626;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+}
+.THIS .btn-group {
+    float: right;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 16px;
+}
+.THIS .acc-detail-container {
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.THIS .detail-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 15%;
+}
+.THIS .Caption2 {
+    color: var(--neutral-n-60, #757575);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Captions/Caption 2 */
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 0.5px;
+}
+.THIS .detail-section .Subtitle1 {
+    color: var(--neutral-n-90, #262626);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Subtitles/Subtitle 1 */
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.5px;
+    max-height: 20px;
+}
+.THIS .share-btn {
+    border-radius: 3px;
+    border: 1px solid #7b3ff2;
+    color: #7b3ff2;
+    background: #ffffff;
+}
+.THIS .download-pdf-btn {
+    border-radius: 3px;
+    background: #7b3ff2;
+    color: #ffffff;
+}
+.THIS .btn-fonts {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.THIS .btn-fonts1 {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.THIS .icon-btn {
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.THIS .section {
+    margin-top: 60px;
+}
+.THIS .section-title {
+    color: #262626;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Headlines/Headline 3 */
+    font-family: 'LatoFont';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+.THIS .sub-section {
+    margin-top: 32px;
+    border-radius: 3px;
+    align-self: stretch;
+    width: 100%;
+    box-shadow: 0px 2px 4px 0px rgba(34, 35, 37, 0.1), 0px -1px 4px 0px rgba(34, 35, 37, 0.04);
+}
+.THIS .sub-section-title {
+    color: var(--neutral-n-60, #757575);
+    text-align: left;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'LatoFont';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.THIS .sub-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    width: 20%;
+}
+.THIS .headLine3 {
+    color: var(--neutral-n-90, #262626);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Headlines/Headline 3 */
+    font-family: 'LatoFont';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: 0.6px;
+}
+.THIS .overview-sub-section1 {
+    display: flex;
+    padding: 24px 32px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.THIS .overview-sub-section2 {
+    padding: 16px;
+}
+.THIS .Subtitle2 {
+    color: var(--neutral-n-90, #262626);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Subtitles/Subtitle 2 */
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.5px;
+}
+.THIS .agent-by-os-content {
+    display: grid;
+    grid-row-gap: 16px;
+    width: 25%;
+}
+.THIS .side-border {
+    border-right: 2px solid #e9e9e9;
+}
+.THIS .agent-by-os-content div {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+.THIS .circle {
+    width: 15px !important;
+    height: 15px;
+    border-radius: 50%;
+}
+.THIS .circle-small {
+    width: 10px !important;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.THIS .section-with-chart-info {
+    display: grid;
+    grid-row-gap: 8px;
+    width: 100%;
+}
+.THIS .section-with-chart-info div {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+.THIS .ticket-list-item {
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px rgba(34, 35, 37, 0.1), 0px -1px 4px 0px rgba(34, 35, 37, 0.04);
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 13px;
+}
+.THIS .table-data-container {
+    height: auto;
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 0px 4px 5px 4px;
+    overflow-x: clip;
+}
+.THIS .product-and-service-table {
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+}
+.THIS .btn-group-container {
+    display: flex;
+    gap: 24px;
+    border: 1px solid #7b3ff2;
+    border-radius: 3px;
+    padding: 4px;
+    width: fit-content;
+    color: #7b3ff2;
+}
+.THIS .down-bar {
+    background: #000;
+}
+.THIS .down-bar-content {
+    padding: 12px 10px;
+    display: flex;
+}
+.THIS .down-bar-button-group {
+    float: right;
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+}
+.THIS .back-to-top-btn {
+    display: flex;
+    gap: 16px;
+    color: #ffffff;
+    float: left;
+    cursor: pointer;
+}
+.THIS .search-btn-combo {
+    flex: 1 0 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+.THIS .search-btn-container {
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+}
+.THIS .place-holder {
+    color: #757575;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Placeholder */
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.1px;
+    width: 285px;
+}
+.THIS .recomandation-title {
+    color: var(--neutral-n-60, #757575);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Buttons/Button 1 */
+    font-family: 'LatoFont';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+.THIS .table-title {
+    display: flex;
+    gap: 24px;
+    padding: 0px 16px;
+    align-items: center;
+}
+.THIS .hold-status {
+    background-color: #efe5fd;
+    width: 25px;
+}
+.THIS .pending-status {
+    background-color: #d4bff9;
+    width: 25px;
+}
+.THIS .closed-status {
+    background-color: #9665f4;
+}
+.THIS .solved-status {
+    background-color: #b694f6;
+}
+.THIS .open-status {
+    background-color: #000000;
+}
+.THIS .place-holder .slds-input {
+    border: 0;
+}
+.THIS .place-holder .slds-input:active,
+.THIS .place-holder .slds-input:focus {
+    box-shadow: none;
+}
+.THIS.report-container {
+    min-width: 1215px !important;
+    /*padding-top: 25px;*/
+}
+.THIS .product-and-service-content {
+    max-height: 265px;
+    overflow: auto;
+}
+.THIS .no-ticket-available {
+    width: 100%;
+    text-align: center;
+}
+.THIS .slds-modal__container {
+    display: block !important;
+}
+.THIS .Inputcustomer {
+    width: 85%;
+    height: 20px !important;
+}
+
+.THIS .table-title,
+.THIS .ticket-list-item {
+    display: flex;
+    justify-content: space-between; /* Adjusts children elements to space out properly */
+}
+
+.THIS .Caption2,
+.THIS .body-fonts {
+    padding: 8px; /* Adjust padding as necessary */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Add ellipsis to overflowing text */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+}
+
+/* Set flex basis for each column; this should add up to less than 100% to account for padding/gaps */
+.THIS .Caption2:nth-child(1),
+.THIS .body-fonts:nth-child(1) {
+    flex-basis: 15%;
+}
+.THIS .Caption2:nth-child(2),
+.THIS .body-fonts:nth-child(2) {
+    flex-basis: 12%;
+}
+.THIS .Caption2:nth-child(3),
+.THIS .body-fonts:nth-child(3) {
+    flex-basis: 20%;
+}
+.THIS .Caption2:nth-child(4),
+.THIS .body-fonts:nth-child(4) {
+    flex-basis: 7%;
+}
+.THIS .Caption2:nth-child(5),
+.THIS .body-fonts:nth-child(5) {
+    flex-basis: 30%;
+}
+.THIS .Caption2:nth-child(6),
+.THIS .body-fonts:nth-child(6) {
+    flex-basis: 12%;
+}
+.THIS .products_services_for_pdf {
+    display: none;
+}
+.THIS .tabing_section {
+    width: 30%;
+    margin-left: 2%;
+    border: 1px solid;
+    padding: 1%;
+    float: left;
+}
+.THIS .cDeploymentReportComp .products_services_for_pdf {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.cDeploymentReportComp .products_services_for_pdf .Caption2:nth-child(1),
+.cDeploymentReportComp .products_services_for_pdf .body-fonts:nth-child(1) {
+    flex-basis: 70%;
+}
+.cDeploymentReportComp .products_services_for_pdf .Caption2:nth-child(2),
+.cDeploymentReportComp .products_services_for_pdf .body-fonts:nth-child(2) {
+    flex-basis: 30%;
+}
+.THIS .blackBar {
+    width: 100%;
+    flex-grow: 0;
+    padding: 12px 100px 12px 100px;
+    background-color: #000;
+    display: inline-flex;
+}
+
+.THIS img.SentinelOne {
+    flex-grow: 0;
+    object-fit: contain;
+    padding: 7px;
+}
+.THIS .report_title h2 {
+    color: #fff !important;
+    padding: 6px;
+    font-size: 17px;
+}
